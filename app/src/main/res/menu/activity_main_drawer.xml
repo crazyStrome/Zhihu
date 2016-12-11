@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp">
+
+        <group>
+                <item
+                    android:id="@+id/nav_zhihu"
+                    android:title="知乎小报"
+                    android:icon="@drawable/ic_menu_send"
+                    android:checked="true"/>
+                <item
+                    android:id="@+id/nav_tianqi"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="天气预报"/>
+                <item
+                    android:id="@+id/nav_kuaidi"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="查快递"/>
+        </group>
+        <item android:title="Sub items">
+                <menu>
+                        <item
+                            android:checkable="true"
+                            android:icon="@drawable/ic_menu_send"
+                            android:title="Sub item 1"/>
+                        <item
+                            android:checkable="true"
+                            android:icon="@drawable/ic_menu_send"
+                            android:title="Sub item 2"/>
+                </menu>
+        </item>
+</menu>

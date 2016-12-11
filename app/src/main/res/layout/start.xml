@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:background="@android:color/black"
+        android:alpha="0.7"
+        android:elevation="8dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/zhihu"
+            android:layout_marginLeft="30dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.18"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="知乎小报\n自己的小报"
+            android:id="@+id/textView"
+            android:textStyle="italic"
+            android:textSize="17dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+</FrameLayout>
